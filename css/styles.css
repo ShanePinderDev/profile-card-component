@@ -18,7 +18,7 @@ body {
 }
 
 .background {
-	background-image: url(../images/bg-pattern-top.svg), 
+	background-image: url(images/bg-pattern-top.svg), 
 	url(../images/bg-pattern-bottom.svg);
 	background-position: top -400px right 150px,
 						 bottom -400px left 120px;
