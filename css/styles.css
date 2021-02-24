@@ -1,0 +1,175 @@
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.125rem;
+	font-family: 'Kumbh Sans', sans-serif;
+	color:  hsl(0, 0%, 59%);
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	
+	
+
+
+
+}
+
+.background {
+	background-image: url(../images/bg-pattern-top.svg), 
+	url(../images/bg-pattern-bottom.svg);
+	background-position: top -400px right 150px,
+						 bottom -400px left 120px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: hsl(185, 75%, 39%);
+	width: 100%;
+	max-width: 1440px; 
+	height: 100vh;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	
+
+
+
+
+}
+
+.card {
+	
+	background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin: 0 auto;
+	
+	width: 90%;
+	max-width: 375px;
+	border-radius: 20px;
+	margin: 0;
+	
+}
+
+.card-content {
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.street-address span {
+	color:  hsl(0, 0%, 59%);
+	margin-bottom: -10px;
+
+
+}
+
+.city {
+	
+	font-size: .85em;
+	margin-top: 0;
+
+}
+
+.street-address,
+.footer-number {
+	color: hsl(229, 23%, 23%);
+	font-weight: 700;
+}
+
+.card-top {
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	height: 8em;
+	width: 100%;
+	margin: 0;
+}
+
+.card-img {
+	border: 5px solid #fff;
+	border-radius: 10em;
+	z-index: +1;
+	margin-top: -50px;
+}
+
+/* taken from card-top
+	background-image: url(../images/bg-pattern-card.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+*/
+
+.card-footer {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	font-size: 1rem;
+	justify-content: space-around;
+	width: 100%;
+	border-top: 1px solid #ebeaea;
+	padding: .75em 0;
+}
+
+.followers {
+	padding-right: 5px;
+}
+
+.footer-number {
+	
+	margin-bottom: 0;
+}
+
+.footer-text {
+	font-size: .75rem;
+	margin-top: 0.25em;
+	letter-spacing: 0.1em;
+}
+
+.attribution {
+	margin-top: 0.667em;
+	color: #fff;
+	opacity: .5;
+	text-align: center;
+}
+
+.link {
+	text-decoration: none;
+	color: hsl(229, 23%, 23%);
+}
+
+.attribution,
+.link {
+	font-size: 0.688rem; 
+}
+
+@media (min-width: 768px) {
+	.background {
+		
+		background-position: top -500px right 500px,
+						 bottom -460px left 500px;
+		
+	}
+
+}
+
+@media (min-width: 1440px) {
+	
+	.background {
+		//max-width: 1440px;
+		background-position: top -900px right 700px,
+						 bottom -960px left 700px;
+		
+	}
+
+	
+}
+
