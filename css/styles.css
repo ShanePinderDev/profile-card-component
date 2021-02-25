@@ -10,11 +10,6 @@ body {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	
-	
-
-
-
 }
 
 .background {
@@ -34,11 +29,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin: 0 auto;
-	
-
-
-
-
 }
 
 .card {
@@ -63,14 +53,11 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 }
 
 .street-address span {
 	color:  hsl(0, 0%, 59%);
 	margin-bottom: -10px;
-
-
 }
 
 .city {
@@ -100,13 +87,6 @@ body {
 	z-index: +1;
 	margin-top: -50px;
 }
-
-/* taken from card-top
-	background-image: url(../images/bg-pattern-card.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-
-*/
 
 .card-footer {
 	display: flex;
